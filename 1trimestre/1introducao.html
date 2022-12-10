@@ -3,23 +3,38 @@
 <meta charset="UTF-8">
 
 <head>
-    <div class="nave">
-        <table cellspacing="10">
-            <th>
-            <td>
-                <h4><a href="../index.html">Página inicial</a></h4>
-            </td>
-            <td>
-                <h4><a href="../1trimestre/1trimestre.html">1º Trimestre</a></h4>
-            </td>
-            <td>
-                <h4><a href="../2trimestre/2trimestre.html">2º Trimestre</a></h4>
-            </td>
-            <td>
-                <h4><a href="../3trimestre/3trimestre.html">3º Trimestre</a></h4>
-            </td>
-            </th>
-        </table>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="jquery/jquery-3.5.1.min.js"></script>
+    <div clas="navegacao">
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #c90b4a;">
+            <a class="navbar-brand" href="../index.html">Página inicial</a>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link" href="1introducao.html">Introdução</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="1dificuldade.html">Dificuldades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="1facilidade.html">Facilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="1autoavaliacao.html">Autoavaliação</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
     </div>
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Introdução</title>
@@ -34,19 +49,19 @@
         Portfólio de Matemática, onde você irá encontrar os conteúdos do 1º trimestre deste ano de 2022 que tive
         dificuldade, que são:
     <ul>
-        <li>Subtração de números binários</li>
-        <li>Determinação da lei da função</li>
+        <li class="recuo">Subtração de números binários</li>
+        <li class="recuo">Determinação da lei da função</li>
     </ul>
     <p>Os conteúdos que tive facilidade:</p>
     <ul>
-        <li>Transformação de número misto para fração imprópria</li>
-        <li>Determinação de um gráfico de uma função</li>
+        <li class="recuo">Transformação de número misto para fração imprópria</li>
+        <li class="recuo">Determinação de um gráfico de uma função</li>
     </ul>
     <p>E autoavaliação na página final.</p>
     <p>Este portfólio foi desenvolvido em conjunto com a disciplina de Desenvolvimento de Web, usando HTML. Assim,
         juntando o que eu aprendi nas duas matérias num lugar só.</p>
     <div class="voltar">
-        <h1 class="black"><a href="1trimestre.html">Voltar</a></h1>
+        <h2 class="black"><a href="1trimestre.html">Voltar</a></h2>
     </div>
 </body>
 

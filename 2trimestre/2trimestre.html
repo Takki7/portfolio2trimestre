@@ -3,25 +3,39 @@
 <meta charset="utf-8">
 
 <head>
-    <div class="nave">
-        <table cellspacing="10">
-            <th>
-            <td>
-                <h4><a href="../index.html">Página inicial</a></h4>
-            </td>
-            <td>
-                <h4><a href="../1trimestre/1trimestre.html">1º Trimestre</a></h4>
-            </td>
-            <td>
-                <h4><a href="../2trimestre/2trimestre.html">2º Trimestre</a></h4>
-            </td>
-            <td>
-                <h4><a href="../3trimestre/3trimestre.html">3º Trimestre</a></h4>
-            </td>
-            </th>
-        </table>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="jquery/jquery-3.5.1.min.js"></script>
+    <div clas="navegacao">
+        <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #c90b4a;">
+            <a class="navbar-brand" href="../index.html">Página inicial</a>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link" href="2introducao.html">Introdução</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="2dificuldade.html">Dificuldades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="2facilidade.html">Facilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="2autoavaliacao.html">Autoavaliação</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
     </div>
-    <br>
     <div class="titulo">
         <h1 class="black">2º Trimestre</h1>
     </div>
@@ -29,6 +43,12 @@
 </head>
 
 <body>
+    <div class="centro"><audio id="myVideo" class="audio" src="../audio/anna_julia.mp3" autoplay controls></audio></div>
+    <script>
+        var vid = document.getElementById("myVideo");
+        vid.volume = 0.25;
+        $("myVideo").prop("volume", 0.5);
+    </script>
     <div class="link">
         <div class="linkint">
             <h2><a href="2introducao.html">Introdução</a>
@@ -44,7 +64,7 @@
         </div>
     </div>
     <div class="voltar">
-        <h1 class="black"><a href="../index.html">Voltar</a></h1>
+        <h2 class="black"><a href="../index.html">Voltar</a></h2>
     </div>
 </body>
 
